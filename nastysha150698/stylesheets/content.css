@@ -12,7 +12,8 @@ article blockquote {
   margin:0 auto;
 }
 
-article > img {
+article > img,
+article > iframe {
   display: block;
   width: 1020px;
   margin: 80px auto;
@@ -27,7 +28,8 @@ article img + blockquote {
   margin-top: -3px;
 }
 
-article h2 + img {
+article h2 + img,
+article h2 + iframe {
   margin-top: 82px;
 }
 
@@ -35,7 +37,8 @@ article img + p {
   margin-top: 3px;
 }
 
-article h3 + img {
+article h3 + img,
+article h3 + iframe {
   margin-top: 81px;
 }
 
