@@ -1,3 +1,4 @@
+
 $(function() {
   var state = {
     imagesQuantity: $('.galleryRail img').length,
@@ -72,3 +73,4 @@ $(function() {
 
   setImageWidth();
 });
+Contact GitHub API Training Shop Blog About
