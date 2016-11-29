@@ -73,4 +73,3 @@ $(function() {
 
   setImageWidth();
 });
-Contact GitHub API Training Shop Blog About
