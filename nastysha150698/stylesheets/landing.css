@@ -10,6 +10,11 @@ body.landing * {
   transition: all .3s ease;
 }
 
+body.landing .menubar div {
+max-width: 1440px;
+margin: 0 auto;
+}
+
 .compact {
   display: none;
 }
@@ -24,6 +29,7 @@ body.landing * {
   width: 1440px;
   margin: 0 auto;
   box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  background-color: white;
 }
 
 .mainSection {
@@ -47,6 +53,7 @@ body.landing * {
 
 .mainSection.center {
   text-align: center;
+  background-color: #FCFCFC;
 }
 
 .mainSection.center h2{
@@ -350,7 +357,10 @@ body.landing * {
       width: 836px;
       height: 483px;
     }
+}
 
-
-
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  #mockup1 { background-image: url(../images/landing/landing-mockup-1.jpg); }
+  #mockup2 { background-image: url(../images/landing/landing-mockup-2.jpg); }
+  #mockup3 { background-image: url(../images/landing/landing-mockup-3.jpg); }
 }
